@@ -2,11 +2,12 @@
 Tiny_Yolo3 based on Pytorch (#including training)
 
 Note:
+	
 	1. darknet uses kernels in Caffe-style : (out_channels, in_channels, kernel_height, kernel_width)
 	
 	2. Darknet uses left and top padding instead of 'same' mode
 	e.g.: 11 max: uses left and top padding instead of 'same' mode
-  15 conv 18 conv 22 conv : padding = 0
+  	      15 conv 18 conv 22 conv : padding = 0
 
 	3. yolo uses (x, y, w, h, objness, class probs)
   
